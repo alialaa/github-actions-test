@@ -1,3 +1,3 @@
-#!/bin/sh
-echo $1 $2
+#!/usr/bin/env bash 
+echo $1
 echo "Hello World"
