@@ -21,7 +21,7 @@ jobs:
           args: -v
       - uses: actions/checkout@v1
       - name: Run a script
-        uses: docker://node:12.14.1-alpine3.10
+        uses: docker://node:13.6.0-stretch
         with:
           entrypoint: ./script.sh
           args: "Some string"
