@@ -1,4 +1,4 @@
-name: Shell Commands
+name: Shell Commands Example
 
 on: [pull_request]
 
